@@ -1,7 +1,13 @@
 .movieText {
-   color: black;
+   color: slategray;
+   font-size: 1.5vw;
+   text-align: left;
 }
 
 .movieHeading {
-   color: black;
+   text-align: left;
+}
+
+.movieBorder {
+   border: dashed darkblue;
 }
