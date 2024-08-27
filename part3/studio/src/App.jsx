@@ -1,11 +1,11 @@
-import { useState } from 'react';
-import './App.css'
-import BoardAssignment from './components/BoardAssignment';
-import StatusChange from './components/StatusChange';
-import RecipeDisplay from './components/Recipe'; 
+import "./App.css";
+
+import BoardAssignment from "./components/BoardAssignment";
+import RecipeDisplay from "./components/Recipe";
+import StatusChange from "./components/StatusChange";
+import { useState } from "react";
 
 function App() {
-
   return (
     <>
       <div className="App">
@@ -16,7 +16,7 @@ function App() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
